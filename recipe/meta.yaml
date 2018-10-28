@@ -1,6 +1,6 @@
 {% set name = "svgwrite" %}
-{% set version = "1.1.12" %}
-{% set sha256 = "968c99f193f34f0fa7f0b3e82f49b93789c7c45cd89ce190480f16020d41ab79" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "d72c04031f621a71e08d6360eb31a86193f9df321b72f895d83936b11b3ded56" %}
 
 package:
   name: {{ name|lower }}
