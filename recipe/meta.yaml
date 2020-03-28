@@ -1,6 +1,6 @@
 {% set name = "svgwrite" %}
-{% set version = "1.3.1" %}
-{% set sha256 = "11e47749b159ed7004721e11d380b4642a26154b8cb2f7b0102fea9c71a3dfa1" %}
+{% set version = "1.4" %}
+{% set sha256 = "b38ac03b67f81c728d81a33e4711aaf3ab136a57156d721bb17f88525d9909bb" %}
 
 package:
   name: {{ name|lower }}
@@ -31,14 +31,14 @@ test:
 
 about:
   home: https://github.com/mozman/svgwrite
-  license: MIT 
+  license: MIT
   license_family: MIT
-  license_file: 'LICENSE.TXT'
-  summary: 'A Python library to create SVG drawings.'
-  description: 'A Python library to create SVG drawings.'
+  license_file: LICENSE.TXT
+  summary: A Python library to create SVG drawings.
+  description: A Python library to create SVG drawings.
   doc_url: http://svgwrite.readthedocs.io
   dev_url: https://github.com/mozman/svgwrite
 
 extra:
-  recipe-maintainers: 
+  recipe-maintainers:
     - jeromekelleher
