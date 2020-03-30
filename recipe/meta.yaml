@@ -13,8 +13,9 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record=record.txt
+  skip: True  # [py<36]
 
 requirements:
   build:
