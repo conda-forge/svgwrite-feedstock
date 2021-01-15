@@ -5,9 +5,13 @@ Home: https://github.com/mozman/svgwrite
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/svgwrite-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python library to create SVG drawings.
+
+Development: https://github.com/mozman/svgwrite
+
+Documentation: http://svgwrite.readthedocs.io
 
 A Python library to create SVG drawings.
 
