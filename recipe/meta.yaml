@@ -1,6 +1,6 @@
 {% set name = "svgwrite" %}
-{% set version = "1.4" %}
-{% set sha256 = "b38ac03b67f81c728d81a33e4711aaf3ab136a57156d721bb17f88525d9909bb" %}
+{% set version = "1.4.1" %}
+{% set sha256 = "e220a4bf189e7e214a55e8a11421d152b5b6fb1dd660c86a8b6b61fe8cc2ac48" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 2
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
